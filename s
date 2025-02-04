@@ -1,5 +1,5 @@
 local Configs_HUB = {
-	Cor_Hub = Color3.fromRGB(255, 0, 0),
+	Cor_Hub = Color3.fromRGB(126, 0, 0),
 	Cor_Options = Color3.fromRGB(47, 47, 47),
 	Cor_Stroke = Color3.fromRGB(0, 0, 0),
 	Cor_Text = Color3.fromRGB(240, 0, 0),
