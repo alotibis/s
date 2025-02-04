@@ -1,6 +1,6 @@
 local Configs_HUB = {
-	Cor_Hub = Color3.fromRGB(126, 0, 0),
-	Cor_Options = Color3.fromRGB(47, 47, 47),
+	Cor_Hub = Color3.fromRGB(86, 0, 0),
+	Cor_Options = Color3.fromRGB(0, 0, 0),
 	Cor_Stroke = Color3.fromRGB(0, 0, 0),
 	Cor_Text = Color3.fromRGB(240, 0, 0),
 	Cor_DarkText = Color3.fromRGB(240, 240, 240),
@@ -1624,15 +1624,5 @@ function MakeWindow(Configs)
 			end
 		end)
 	end
-	
-	NewGuiPart3.BackgroundTransparency = 1
-	NewGuiPart3.BorderColor3 = Color3.new(0, 0, 0)
-	NewGuiPart3.BorderSizePixel = 0
-	NewGuiPart3.Position = UDim2.new(0.884520888, 0, 0.907258093, 0)
-	NewGuiPart3.Size = UDim2.new(0, 21, 0, 23)
-	NewGuiPart3.FontSize = Enum.FontSize.Size14
-	NewGuiPart3.Text = "By: Edit SCript"
-	NewGuiPart3.TextColor3 = Color3.new(0, 0, 0)
-	
 	return Menu
 end
