@@ -1,6 +1,6 @@
 local Configs_HUB = {
-	Cor_Hub = Color3.fromRGB(27, 18, 18),
-	Cor_Options = Color3.fromRGB(42, 48, 42),
+	Cor_Hub = Color3.fromRGB(255, 0, 0),
+	Cor_Options = Color3.fromRGB(47, 47, 47),
 	Cor_Stroke = Color3.fromRGB(0, 0, 0),
 	Cor_Text = Color3.fromRGB(240, 0, 0),
 	Cor_DarkText = Color3.fromRGB(240, 240, 240),
@@ -413,7 +413,7 @@ function MakeWindow(Configs)
 
 		local Mensage = Create("TextLabel", CloseMenu, {
 			Size = UDim2.new(0.8, 0, 0.25, 0),
-			Text = "are you sure you want to close this script??",
+			Text = "تبي تقفل سكربت نهائي ؟؟??",
 			Position = UDim2.new(0.1, 0, 0.2),
 			TextColor3 = Configs_HUB.Cor_Text,
 			Font = Configs_HUB.Text_Font,
@@ -1624,5 +1624,15 @@ function MakeWindow(Configs)
 			end
 		end)
 	end
+	
+	NewGuiPart3.BackgroundTransparency = 1
+	NewGuiPart3.BorderColor3 = Color3.new(0, 0, 0)
+	NewGuiPart3.BorderSizePixel = 0
+	NewGuiPart3.Position = UDim2.new(0.884520888, 0, 0.907258093, 0)
+	NewGuiPart3.Size = UDim2.new(0, 21, 0, 23)
+	NewGuiPart3.FontSize = Enum.FontSize.Size14
+	NewGuiPart3.Text = "By: Edit SCript"
+	NewGuiPart3.TextColor3 = Color3.new(0, 0, 0)
+	
 	return Menu
 end
